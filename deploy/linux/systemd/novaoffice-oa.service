@@ -1,0 +1,18 @@
+[Unit]
+Description=NovaOffice OA Go 服务
+After=network.target mysql.service
+
+[Service]
+Type=simple
+User=novaoffice
+Group=novaoffice
+WorkingDirectory=/opt/novaoffice-oa
+EnvironmentFile=/opt/novaoffice-oa/.env.production
+ExecStart=/opt/novaoffice-oa/bin/novaoffice-oa
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

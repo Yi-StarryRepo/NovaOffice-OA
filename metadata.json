@@ -1,0 +1,15 @@
+{
+  "name": "NovaOffice OA",
+  "description": "面向企业内部协同场景的智能办公平台，覆盖流程审批、跨部门任务协同、组织权限管理、可视化流程设计、数据分析与执行闭环。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "流程审批",
+    "跨部门任务协同",
+    "组织与权限管理",
+    "流程设计器",
+    "任务反馈与附件回显",
+    "数据可视化与分析",
+    "Linux 单机部署",
+    "MySQL / MariaDB 生产交付"
+  ]
+}

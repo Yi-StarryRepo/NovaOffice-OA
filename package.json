@@ -1,0 +1,38 @@
+{
+  "name": "novaoffice-oa",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview",
+    "app:preview": "node server.ts",
+    "app:dev": "node server.ts",
+    "serve:prod": "node server.ts",
+    "start": "cd backend-go && go run .",
+    "go:dev": "cd backend-go && go run .",
+    "go:build": "cd backend-go && go build -o ../bin/novaoffice-oa .",
+    "go:test": "cd backend-go && go test ./...",
+    "lint": "vue-tsc --noEmit",
+    "typecheck": "vue-tsc --noEmit",
+    "smoke": "node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/d3": "^7.4.3",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "d3": "^7.9.0",
+    "express": "^5.2.1",
+    "lucide-vue-next": "^1.0.0",
+    "vite": "^6.2.0",
+    "vue": "^3.5.32"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.12"
+  }
+}

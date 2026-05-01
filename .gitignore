@@ -1,0 +1,17 @@
+node_modules/
+build/
+dist/
+bin/
+coverage/
+.DS_Store
+*.log
+.tmp-*
+*.tar.gz
+*.7z.exe
+.env*
+!.env.example
+data/
+data/*.db
+data/*.db-*
+codex-dev.out.log
+codex-dev.err.log
